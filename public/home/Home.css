@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .stickyicon-list {   
+    position: fixed;   
+    top: 250px;   
+    transform: translateY(-50%);             
+    }         
+    .stickyicon-list a {   
+    display: block;   
+    text-align: center;   
+    padding: 8px;   
+    transition: all 0.5s ease;   
+    color: white;   
+    font-size: 30px;   
+    }         
+    /* HOver affect on sticky social media icons */   
+    .stickyicon-list a:hover {   
+    color: #000;   
+    width:10px;   
+    }   
+    .facebook {   
+      background: #3b5998;   
+      color: white;  
+      }         
+      .twitter {   
+      color: white;   
+      background: #00acee;   
+      }   
+      .linkedin {   
+      background: #0e76a8;   
+      color: white;   
+      }         
+      .google {   
+      color: white;   
+      background: #db4a39;   
+      }   
+      .instagram {   
+      background: #3f729b;   
+      color: white;   
+      }         
+      .youtube {   
+      color: white;   
+      background: #c4302b;    
+      }   
